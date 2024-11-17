@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="IP-to-Decimal-Converter" default="jar" basedir=".">
+    <property name="src.dir" location="src"/>
+    <property name="build.dir" location="build"/>
+    <property name="dist.dir" location="dist"/>
+    
+    <!-- Updated Burp Suite JAR path for macOS -->
+    <property name="burp.jar" location="/Applications/Burp Suite Professional.app/Contents/Resources/app/burpsuite_pro.jar"/>
+
+    <target name="init">
+        <mkdir dir="${build.dir}"/>
+        <mkdir dir="${dist.dir}"/>
+    </target>
+
+    <target name="compile" depends="init">
+        <javac srcdir="${src.dir}" 
+               destdir="${build.dir}" 
+               includeantruntime="false"
+               source="21"
+               target="21"
+               release="21">
+            <classpath>
+                <pathelement location="${burp.jar}"/>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="jar" depends="compile">
+        <jar destfile="${dist.dir}/ip-to-decimal.jar" basedir="${build.dir}"/>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+        <delete dir="${dist.dir}"/>
+    </target>
+</project>
