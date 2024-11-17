@@ -6,6 +6,9 @@ A Burp Suite extension that converts IP addresses to decimal notation, useful fo
 ## 📜 Description
 The IP to Decimal Converter is a Burp Suite extension that allows security professionals and penetration testers to automatically convert IP addresses to their decimal notation format. 🔄 This tool is particularly useful for bypassing security controls that block regular IP addresses but may not recognize decimal notation. 🚀
 
+✍️ Author
+Author Name: Harshad Shah 👤 [ www.hackerassociate.com ] 
+
 ## 🌟 Features
 - 🔢 Converts IPv4 addresses to decimal notation
 - 📋 Context menu integration in Burp Suite
