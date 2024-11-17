@@ -20,7 +20,7 @@ The IP to Decimal Converter is a Burp Suite extension that allows security profe
 - Network security assessments
 
 ## Installation
-1. Download the latest release (`ip-to-decimal.jar`)
+1. Download the latest release (`SSRF-Bugbounty-IP-DECIMAL-by-Harshad.jar`)
 2. Open Burp Suite Professional
 3. Navigate to the Extender tab
 4. Click "Add" button
