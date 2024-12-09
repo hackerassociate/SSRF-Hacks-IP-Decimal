@@ -10,6 +10,8 @@ The IP to Decimal Converter is a Burp Suite extension that allows security profe
 ✍️ Author
 Name: Harshad Shah 👤 [ www.hackerassociate.com ] 
 
+![SSRF Screenshot](https://github.com/hackerassociate/SSRF-Hacks-IP-Decimal](https://github.com/hackerassociate/SSRF-Hacks-IP-Decimal/blob/main/Hacker-Associate-SSRF.png)
+
 ## 🌟 Features
 - 🔢 Converts IPv4 addresses to decimal notation
 - 📋 Context menu integration in Burp Suite
